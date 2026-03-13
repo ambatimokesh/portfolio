@@ -232,3 +232,16 @@ tabs.forEach(tab => {
   });
 });
 
+
+
+'azure-3tier': {
+title: '3-Tier Architecture on Azure',
+subtitle: 'Cloud Infrastructure Design',
+description: `<p>This project demonstrates a scalable cloud architecture built on Microsoft Azure using Virtual Networks, Load Balancer, Traffic Manager and App Service.</p>
+<ul>
+<li>Architecture: 3-Tier (Presentation, Application, Data)</li>
+<li>Services: VNet, NSG, Load Balancer, Traffic Manager</li>
+<li>Goal: High availability and scalable cloud infrastructure</li>
+</ul>`
+}
+

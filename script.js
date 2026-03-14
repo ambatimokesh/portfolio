@@ -80,12 +80,32 @@ tabs.forEach(btn => {
       description: `<p>This interactive Power BI dashboard visualizes sales across regions, categories, and time. Features filters, KPIs, trend charts, and drill-through insights to help stakeholders identify top-performing SKUs and optimize promotions.</p>
                     <ul><li>Tools: Power BI, Power Query, DAX, Excel</li><li>Work: Data cleaning, modeling, KPI design, storytelling</li><li>Impact: Clear insights for sales strategy and inventory planning</li></ul>`
     },
-    'img-features': {
-      title: 'Image Feature Extraction',
-      subtitle: 'SURF, HOG, LBP — Python / OpenCV',
-      description: `<p>A pipeline to preprocess images and extract robust features using SURF, HOG and LBP. Useful for object detection and texture classification experiments.</p>
-                    <ul><li>Libraries: OpenCV, NumPy</li><li>Focus: preprocessing, feature engineering, visualization</li></ul>`
-    },
+
+
+     
+    'azure-3tier': {
+  title: '3-Tier Architecture on Azure',
+  subtitle: 'Scalable Cloud Infrastructure Deployment',
+  description: `<p>This project demonstrates a highly available and scalable cloud architecture deployed on Microsoft Azure using a standard 3-tier design.</p>
+
+  <p>The architecture separates the application into three layers:</p>
+
+  <ul>
+  <li><strong>Presentation Tier</strong> — Hosted using Azure App Service to deliver the web application interface to users.</li>
+  <li><strong>Application Tier</strong> — Managed with Azure Load Balancer and Virtual Machines to process application logic.</li>
+  <li><strong>Data Tier</strong> — Backend database services secured within the Virtual Network.</li>
+  </ul>
+
+  <ul>
+  <li><strong>Cloud Services:</strong> Azure Virtual Network, NSG, Load Balancer, Traffic Manager</li>
+  <li><strong>Architecture:</strong> High Availability 3-Tier Cloud Design</li>
+  <li><strong>Goal:</strong> Global traffic routing, scalability and fault tolerance</li>
+  </ul>`
+},
+
+
+
+     
     'travel-eazy': {
       title: 'Travel Eazy',
       subtitle: 'Flask + ML — Personalized Travel Recommender',
